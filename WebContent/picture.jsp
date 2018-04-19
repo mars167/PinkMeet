@@ -14,9 +14,9 @@
 </head>
 <body>
 
-<form action="" method="post">
-	<input type="file" name="imageUpload"/>
-	<input typr="submit">
+<form action="UploadImage" method="post" enctype = "multipart/form-data">
+	<input type="file" name="imageUpload" id ="imageUpload"/>
+	<input type="submit">
 </form>
 
 

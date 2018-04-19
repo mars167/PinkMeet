@@ -12,13 +12,17 @@ import com.pinkmeet.util.DBUtil;
 
 public class PictureDAO {
 
-	public void insert() {
+	public void insert(int uid,String filename) {
 		Connection conn = DBUtil.getConnection();
-		String sql="";
+		String sql="INSERT INTO photoes"
+				+ "(uid,filename)"
+				+ " VALUES (?,?)";
 		PreparedStatement pstmt = null;
 		try{
 			pstmt = conn.prepareStatement(sql);
-			
+			pstmt.setInt(1, uid);
+			pstmt.setString(2, filename);
+			pstmt.execute();
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}

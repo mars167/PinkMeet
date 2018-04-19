@@ -6,22 +6,18 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-
-import com.pinkmeet.bean.User;
-import com.pinkmeet.dao.UserDAO;
 
 /**
- * Servlet implementation class Login
+ * Servlet implementation class LogoutServlet
  */
-@WebServlet("/Login")
-public class Login extends HttpServlet {
+@WebServlet("/LogoutServlet")
+public class LogoutServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Login() {
+    public LogoutServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -39,23 +35,8 @@ public class Login extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		User user=null;
-		String cell_number=request.getParameter("cell_number");
-		String password = request.getParameter("password");
-		UserDAO  dao = new UserDAO();
-		if(dao.login(cell_number,password)) {
-			user = dao.getUserByCell_number(cell_number);
-			HttpSession session = request.getSession();
-			session.setAttribute("id", user.getId());
-			session.setAttribute("username", user.getUsername());
-			session.setAttribute("cell_number",user.getCell_number());
-			session.setAttribute("sex", user.getSex());
-			session.setAttribute("profile", user.getProfile());
-			session.setAttribute("islogin", 1);
-			response.sendRedirect("profile.jsp");	
-		}else {
-			response.sendRedirect("login.jsp");
-		}
+		request.getSession().invalidate();
+		response.sendRedirect("login.jsp");
 	}
 
 }
