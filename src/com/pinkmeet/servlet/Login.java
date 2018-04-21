@@ -53,7 +53,7 @@ public class Login extends HttpServlet {
 			session.setAttribute("profile", user.getProfile());
 			session.setAttribute("contact", user.getContact());
 			session.setAttribute("islogin", 1);
-			response.sendRedirect("profile.jsp");	
+			response.sendRedirect("profile.jsp");
 		}else {
 			response.sendRedirect("login.jsp");
 		}
