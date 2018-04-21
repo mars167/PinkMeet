@@ -11,7 +11,9 @@ public class User {
 	private String profile;
 	private long reg_time;
 	private long login_time;
-	
+	private String contact;
+
+
 	public User() {	
 	}
 	
@@ -95,7 +97,12 @@ public class User {
 		this.login_time = login_time;
 	}
 	
-	
+	public String getContact(){
+		return  this.contact;
+	}
+	public void setContact(String contact){
+		this.contact = contact;
+	}
 	
 	
 

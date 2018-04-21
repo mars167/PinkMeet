@@ -22,7 +22,7 @@ import com.pinkmeet.dao.PictureDAO;
 /**
  * Servlet implementation class UploadImage
  */
-@WebServlet("/UploadImage")
+@WebServlet(name = "UploadImage",urlPatterns = "/UploadImage")
 @MultipartConfig
 public class UploadImage extends HttpServlet {
 	
@@ -52,7 +52,7 @@ public class UploadImage extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		System.out.println("UploadTestServlet in");
+
         /****** 初始化部分 ******/
         //设置编码格式，前端后台统一是utf-8
         request.setCharacterEncoding("utf-8");
@@ -74,15 +74,19 @@ public class UploadImage extends HttpServlet {
         	f.mkdirs();
         }
         part.write(filepath+"/"+newfileName);
+
         PictureDAO dao = new PictureDAO();
         HttpSession session = request.getSession();
-//        String id =(String) session.getAttribute("id");
-        System.out.println( session.getAttribute("id"));
-//        int uid = Integer.parseInt(id);
-//        dao.insert(uid, newfileName);
-        
-        response.getWriter().println(filepath);
+        int uid = (int) session.getAttribute("id");
 
+        if (dao.hasImg(uid)){
+            dao.update(uid,newfileName);
+        }else{
+            dao.insert(uid, newfileName);
+        }
+
+        response.sendRedirect("profile.jsp");
+        
 	}
 
 }

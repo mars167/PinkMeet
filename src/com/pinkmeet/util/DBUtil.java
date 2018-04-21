@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class DBUtil {
 	// 数据库 URL
-    static final String DB_URL = "jdbc:mysql://localhost:3360/PinkMeet";
+    static final String DB_URL = "jdbc:mysql://localhost:3360/PinkMeet?characterEncoding=UTF-8";
     // 数据库的用户名与密码，需要根据自己的设置
     static final String USER = "mars";
     static final String PASS = "572286594abc";

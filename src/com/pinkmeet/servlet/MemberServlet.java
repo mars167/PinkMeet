@@ -16,7 +16,7 @@ import com.pinkmeet.dao.UserDAO;
 /**
  * Servlet implementation class MemberServlet
  */
-@WebServlet("/MemberServlet")
+@WebServlet(name = "MemberServlet",urlPatterns = "/MemberServlet")
 public class MemberServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -41,11 +41,16 @@ public class MemberServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		request.setCharacterEncoding("utf-8");
+		
 		String cell_number = request.getParameter("cell_number");
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		int sex = Integer.parseInt(request.getParameter("sex")) ;
 		String profile = request.getParameter("profile");
+		
+		System.out.println(profile);
+		response.getWriter().println(profile);
 		
 		PrintWriter out = response.getWriter();
 
@@ -61,6 +66,7 @@ public class MemberServlet extends HttpServlet {
 			session.setAttribute("cell_number", user.getCell_number());
 			session.setAttribute("sex", user.getSex());
 			session.setAttribute("profile", user.getProfile());
+			session.setAttribute("contact", user.getContact());
 			response.sendRedirect("profile.jsp");
 		}catch(Exception e) {
 			e.printStackTrace();

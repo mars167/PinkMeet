@@ -14,7 +14,7 @@ import com.pinkmeet.dao.UserDAO;
 /**
  * Servlet implementation class Login
  */
-@WebServlet("/Login")
+@WebServlet(name = "Login",urlPatterns = "/Login")
 public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -51,6 +51,7 @@ public class Login extends HttpServlet {
 			session.setAttribute("cell_number",user.getCell_number());
 			session.setAttribute("sex", user.getSex());
 			session.setAttribute("profile", user.getProfile());
+			session.setAttribute("contact", user.getContact());
 			session.setAttribute("islogin", 1);
 			response.sendRedirect("profile.jsp");	
 		}else {
