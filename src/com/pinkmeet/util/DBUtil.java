@@ -8,13 +8,13 @@ import java.sql.Statement;
 
 public class DBUtil {
 	// 数据库 URL
-//    static final String DB_URL = "jdbc:mysql://localhost:3360/PinkMeet?characterEncoding=UTF-8";
-	static final String DB_URL = "jdbc:mysql://localhost:3306/joe_PinkMeet?characterEncoding=UTF-8";
+    static final String DB_URL = "jdbc:mysql://localhost:3360/PinkMeet?characterEncoding=UTF-8";
+//	static final String DB_URL = "jdbc:mysql://localhost:3306/joe_PinkMeet?characterEncoding=UTF-8";
     // 数据库的用户名与密码，需要根据自己的设置
-//    static final String USER = "mars";
-//    static final String PASS = "572286594abc";
-	static final String USER = "joe";
-	static final String PASS = "00001011";
+    static final String USER = "mars";
+    static final String PASS = "572286594abc";
+//	static final String USER = "joe";
+//	static final String PASS = "00001011";
 
     private static Connection conn = null;
     
