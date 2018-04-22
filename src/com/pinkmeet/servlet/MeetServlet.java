@@ -59,15 +59,19 @@ public class MeetServlet extends HttpServlet {
         try {
             obj.put("success",true);
             PictureDAO pidao =new PictureDAO();
+
+            System.out.println(users.size());
+            long count = 0;
+
             for (User user :users){
                 JSONObject userObj = new JSONObject();
+
                 userObj.put("uid",user.getId());
                 userObj.put("username",user.getUsername());
                 userObj.put("sex",user.getSex());
                 userObj.put("profile",user.getProfile());
                 userObj.put("img",pidao.getImg(user.getId()));
-
-                obj.put("users",userObj);
+                obj.put("user"+(count++),userObj);
 
             }
 
