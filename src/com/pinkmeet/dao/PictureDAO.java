@@ -76,8 +76,9 @@ public class PictureDAO {
 			ResultSet rs = pstmt.executeQuery();
 			if (rs.next()){
 				filename = rs.getString("filename");
-			}
-			filename = null;
+			}else{
+                filename = null;
+            }
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}

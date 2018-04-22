@@ -10,7 +10,7 @@
 	String title = "PinkMeet-个人信息";
 	
 	PictureDAO dao = new PictureDAO();
-	String filename = dao.getImg((int)session.getAttribute("id"));
+	String filename = dao.getImg((int) session.getAttribute("id"));
 %>
 <%
 	String gender = (int) session.getAttribute("sex")==0 ? "男" : "女";
