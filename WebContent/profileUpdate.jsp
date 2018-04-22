@@ -41,7 +41,7 @@
 					</tr>
 					<tr>
 						<td>
-							<label for="bio">联系方式：</label>
+							<label for="contact">联系方式：</label>
 						</td>
 						<td>
 							<textarea id="contact" name="contact"><%=session.getAttribute("contact") %></textarea>
@@ -78,6 +78,7 @@
 	function signIn(){
 		var infoObjArr = [];
 		infoObjArr['username'] = $('#username');
+		infoObjArr['contact'] = $('#contact');
 
 		return formCheck(infoObjArr);
 	}

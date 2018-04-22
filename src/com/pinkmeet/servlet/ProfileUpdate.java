@@ -47,7 +47,7 @@ public class ProfileUpdate extends HttpServlet {
 		String username = request.getParameter("username");
 		String profile = request.getParameter("profile");
 		String cell_number = (String) session.getAttribute("cell_number");
-		String contact = (String) session.getAttribute("contact");
+		String contact = request.getParameter("contact");
 
 
 		UserDAO dao = new UserDAO();
