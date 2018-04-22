@@ -10,7 +10,7 @@
 	String title = "PinkMeet-个人信息";
 	
 	PictureDAO dao = new PictureDAO();
-	String filename = dao.getImg((int)session.getAttribute("id"));
+	String filename = dao.getImg((int) session.getAttribute("id"));
 %>
 <%
 	String gender = (int) session.getAttribute("sex")==0 ? "男" : "女";
@@ -82,7 +82,7 @@
 					<a href="profileUpdate.jsp" class="btn">修改信息</a>
 				</td>
 				<td>
-					<a href="profile.jsp" class="btn">更换照片</a>
+					<a href="picture.jsp" class="btn">更换照片</a>
 				</td>
 			</tr><br><br>
 			<tr>

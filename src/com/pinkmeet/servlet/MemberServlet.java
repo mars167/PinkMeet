@@ -60,6 +60,7 @@ public class MemberServlet extends HttpServlet {
 		try {
 			dao.insert(user);
 //			dao.login(user.getCell_number(),user.getPassword());
+			user = dao.getUserByCell_number(cell_number);
 			HttpSession session =request.getSession();
 			session.setAttribute("islogin", 1);
 			session.setAttribute("id", user.getId());
