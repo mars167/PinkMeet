@@ -1,4 +1,19 @@
+// showChatBox("这是标题");
+//这个函数完成初始化聊天窗口
 
+// addServerMsg("对方的消息");
+//这个函数向聊天窗口中添加对方发来的消息
+
+// addClientMsg("我发出的消息");
+//这个函数向聊天窗口中添加我放发出的消息
+/*
+	以上两个关于聊天信息发送的函数只能完成前端的显示，
+	目前还不具备与后端交换信息的功能
+*/
+// function initStage(){
+// 	return $('.content__right').eq(2);
+// }
+//这个函数是为聊天窗口初始化做准备工作的，不能修改,放在调用处最好
 function showChatBox(title){
 	var chatStage = initStage();
 	chatStage.parents('.spinner__face').hide(100);

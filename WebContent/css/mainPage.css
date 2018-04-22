@@ -50,10 +50,11 @@ body {
 	height: 40px;
 	border-radius: 20px;
 	text-align: center;
-	line-height: 40px;
 	background: #fff;
 	color: #fff;
 	opacity: 0.8;
+	box-sizing: border-box;
+	padding-top: 10px;
 }
 .button:hover{
 	opacity: 1;
@@ -86,10 +87,11 @@ body {
 	margin: 0 auto;
 	position: relative;
 	font-size: 22px;
-	line-height: 60px;
 	bottom: -30%;
 	right: -30%;
 	opacity: 1;
+	box-sizing: border-box;
+	padding-top: 20px;
 }
 .bgBlue:active{
 	margin-top: 2px;

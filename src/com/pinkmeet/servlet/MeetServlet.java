@@ -57,11 +57,11 @@ public class MeetServlet extends HttpServlet {
         //将用户数组转换成json响应给前端
         JSONObject obj = new JSONObject();
         try {
-            obj.put("success",true);
+//            obj.put("success",true);
             PictureDAO pidao =new PictureDAO();
 
-            System.out.println(users.size());
-            long count = 0;
+//            System.out.println(users.size());
+            int count = 0;
 
             for (User user :users){
                 JSONObject userObj = new JSONObject();
@@ -71,8 +71,8 @@ public class MeetServlet extends HttpServlet {
                 userObj.put("sex",user.getSex());
                 userObj.put("profile",user.getProfile());
                 userObj.put("img",pidao.getImg(user.getId()));
-                obj.put("user"+(count++),userObj);
-
+                obj.put(Integer.toString(count),userObj);
+				count++;
             }
 
             response.getWriter().append(obj.toString());

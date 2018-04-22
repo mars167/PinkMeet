@@ -88,7 +88,9 @@ public class UserDAO {
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setInt(1, id);
 			ResultSet rs = pstmt.executeQuery();
+			rs.next();
 			user.setId(id);
+			user.setUsername(rs.getString("username"));
 			user.setCell_number(rs.getString("cell_number"));
 			user.setSex(rs.getInt("sex"));
 			user.setProfile(rs.getString("profile"));

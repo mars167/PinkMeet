@@ -8,7 +8,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+import com.pinkmeet.bean.User;
 import com.pinkmeet.dao.LikeDAO;
+import com.pinkmeet.dao.PictureDAO;
 import com.pinkmeet.dao.UserDAO;
 import jdk.nashorn.api.scripting.JSObject;
 import org.json.JSONArray;
@@ -35,13 +37,18 @@ public class LikeServlet extends HttpServlet {
         }
 
         if (dao.isLiked(uid,cuid)){
-            UserDAO user = new UserDAO();
-            String contact = user.getContact(cuid);
+            UserDAO udao = new UserDAO();
+            User user = udao.getUserById(cuid);
+            System.out.println(user.getUsername()+";"+user.getContact());
+            PictureDAO pdao = new PictureDAO();
+
             JSONObject obj = new JSONObject();
-            System.out.println(contact);
+
             try {
                 obj.put("success",true);
-                obj.put("contact",contact);
+                obj.put("contact",user.getContact());
+                obj.put("username",user.getUsername());
+                obj.put("img",pdao.getImg(cuid));
                 response.getWriter().append(obj.toString());
             } catch (JSONException e) {
                 e.printStackTrace();

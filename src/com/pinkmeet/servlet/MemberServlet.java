@@ -69,7 +69,7 @@ public class MemberServlet extends HttpServlet {
 			session.setAttribute("sex", user.getSex());
 			session.setAttribute("profile", user.getProfile());
 			session.setAttribute("contact", user.getContact());
-			response.sendRedirect("profile.jsp");
+			response.sendRedirect("index.jsp");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}

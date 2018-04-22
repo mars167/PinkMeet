@@ -151,7 +151,7 @@ var safelyGetButton = function safelyGetButton(obj){
 var processButton = function processButton(obj){
 	if( obj.attr("data-info") ){
 		if( obj.attr("data-info") == "like" ){
-			showLikeAnimation();
+			// showLikeAnimation();
 			// alert("like");
 			spin(-1);
 		}else{
