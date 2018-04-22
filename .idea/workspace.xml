@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d11bda85-abe7-4782-bc10-348165ef5a98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/bean/User.class" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/bean/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/filter/SessionCheckFilter.class" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/filter/SessionCheckFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/ContactServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/ContactServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/Login.class" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/MemberServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/MemberServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/bean/User.class" afterPath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/bean/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/servlet/ContactServlet.class" afterPath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/servlet/ContactServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/servlet/MemberServlet.class" afterPath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/servlet/MemberServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/index.jsp" afterPath="$PROJECT_DIR$/WebContent/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/profile.jsp" afterPath="$PROJECT_DIR$/WebContent/profile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/profile.jsp" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/profile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pinkmeet/bean/User.java" afterPath="$PROJECT_DIR$/src/com/pinkmeet/bean/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pinkmeet/servlet/ContactServlet.java" afterPath="$PROJECT_DIR$/src/com/pinkmeet/servlet/ContactServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pinkmeet/servlet/MemberServlet.java" afterPath="$PROJECT_DIR$/src/com/pinkmeet/servlet/MemberServlet.java" />
     </list>
     <ignored path="PinkMeet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/dao/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
@@ -190,11 +175,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="profile.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/profile.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="564">
+              <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -334,6 +319,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1005,12 +1008,12 @@
       <updated>1524282480827</updated>
       <workItem from="1524282491895" duration="6411000" />
       <workItem from="1524289943094" duration="768000" />
-      <workItem from="1524291387962" duration="30669000" />
+      <workItem from="1524291387962" duration="33208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37848000" />
+    <option name="totallyTimeSpent" value="40387000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1504,14 +1507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/profile.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -1526,6 +1521,14 @@
             <marker date="1524318572357" expanded="true" signature="3634:3666" placeholder="SELECT * FRO... user" />
             <marker date="1524318572357" expanded="true" signature="4562:4593" placeholder="SELECT conta... user" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
