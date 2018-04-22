@@ -6,6 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="d11bda85-abe7-4782-bc10-348165ef5a98" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/profile.jsp" afterPath="$PROJECT_DIR$/WebContent/profile.jsp" />
+=======
     <list id="e0275e6d-f5a8-4463-bcf0-3fd6fd7a87de" name="添加前端资源" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/.idea/css.iml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/.idea/modules.xml" />
@@ -36,6 +40,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/util/DBUtil.class" afterPath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/util/DBUtil.class" />
       <change beforePath="$PROJECT_DIR$/src/com/pinkmeet/filter/SessionCheckFilter.java" afterPath="$PROJECT_DIR$/src/com/pinkmeet/filter/SessionCheckFilter.java" />
       <change beforePath="$PROJECT_DIR$/src/com/pinkmeet/util/DBUtil.java" afterPath="$PROJECT_DIR$/src/com/pinkmeet/util/DBUtil.java" />
+>>>>>>> c7f3eaf0ecabc3d3e03764d0e97bc933a8fd2857
     </list>
     <list id="b35bf55b-a379-4c4d-a5fc-5f7619f76226" name="前端部分整合" comment="登录注册修改信息" />
     <ignored path="PinkMeet.iws" />
@@ -77,8 +82,32 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/dao/UserDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="159" column="47" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
+              <folding>
+                <element signature="e#3551#3557#0" expanded="true" />
+                <marker date="1524318572357" expanded="true" signature="356:470" placeholder="INSERT INTO user... " />
+                <marker date="1524318572357" expanded="true" signature="1059:1099" placeholder="SELECT * FRO... user" />
+                <marker date="1524318572357" expanded="true" signature="1580:1674" placeholder="UPDATE user " />
+                <marker date="1524318572357" expanded="true" signature="2281:2312" placeholder="SELECT * FRO... user" />
+                <marker date="1524318572357" expanded="true" signature="2888:2928" placeholder="SELECT * FRO... user" />
+                <marker date="1524318572357" expanded="true" signature="3634:3666" placeholder="SELECT * FRO... user" />
+                <marker date="1524318572357" expanded="true" signature="4562:4593" placeholder="SELECT conta... user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfileUpdate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/ProfileUpdate.java">
+=======
       <file leaf-file-name="profileUpdate.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/profileUpdate.jsp">
+>>>>>>> c7f3eaf0ecabc3d3e03764d0e97bc933a8fd2857
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1738">
               <caret line="79" column="44" lean-forward="false" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
@@ -127,11 +156,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="profile.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/profile.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+=======
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
               <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+>>>>>>> c7f3eaf0ecabc3d3e03764d0e97bc933a8fd2857
               <folding />
             </state>
           </provider>
@@ -237,6 +274,166 @@
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+<<<<<<< HEAD
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinkmeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinkmeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinkmeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinkmeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PinkMeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinkmeet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+=======
           <expand>
             <path>
               <item name="PinkMeet" type="b2602c69:ProjectViewProjectNode" />
@@ -280,6 +477,7 @@
             </path>
           </expand>
           <select />
+>>>>>>> c7f3eaf0ecabc3d3e03764d0e97bc933a8fd2857
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -843,10 +1041,14 @@
       <updated>1524282480827</updated>
       <workItem from="1524282491895" duration="6411000" />
       <workItem from="1524289943094" duration="768000" />
+<<<<<<< HEAD
+      <workItem from="1524291387962" duration="33208000" />
+=======
       <workItem from="1524291387962" duration="26212000" />
       <workItem from="1524369312315" duration="2235000" />
       <workItem from="1524371572700" duration="5051000" />
       <workItem from="1524376837809" duration="409000" />
+>>>>>>> c7f3eaf0ecabc3d3e03764d0e97bc933a8fd2857
     </task>
     <task id="LOCAL-00001" summary="添加前端资源">
       <created>1524371908028</created>
@@ -866,7 +1068,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="40387000" />
+=======
     <option name="totallyTimeSpent" value="41086000" />
+>>>>>>> c7f3eaf0ecabc3d3e03764d0e97bc933a8fd2857
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1284,6 +1490,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/dao/UserDAO.java">
+=======
     <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
@@ -1293,9 +1502,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/profileUpdate.jsp">
+>>>>>>> c7f3eaf0ecabc3d3e03764d0e97bc933a8fd2857
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1738">
           <caret line="79" column="44" lean-forward="false" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
           <folding />
         </state>
       </provider>
