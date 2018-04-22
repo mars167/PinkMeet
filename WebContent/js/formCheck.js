@@ -83,9 +83,17 @@ function vfcodeCheck(vfcode){
 }
 
 function phoneCheck(number){
-	pattern = /[0-9]{11}/;
+	var pattern = /[0-9]{11}/;
 	if( !pattern.test(number) ){
 		return "电话号码格式出错：请输入11位电话号码";
+	}else{
+		return "";
+	}
+}
+
+function contactCheck(text){
+	if( text.trim().length == 0 ){
+		return "联系方式格式出错：不能为空"
 	}else{
 		return "";
 	}

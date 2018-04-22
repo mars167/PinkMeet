@@ -11,7 +11,7 @@ import java.io.IOException;
 /**
  * Created by mars on 2018/4/21.
  */
-@WebFilter(filterName = "SessionCheckFilter",urlPatterns = {"/*"})
+//@WebFilter(filterName = "SessionCheckFilter",urlPatterns = {"/*"})
 public class SessionCheckFilter implements Filter {
 
     String encoding;
