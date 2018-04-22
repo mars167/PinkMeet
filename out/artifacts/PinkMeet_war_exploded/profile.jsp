@@ -23,7 +23,7 @@
 	<div>
 		<div>
 		<h5>图片</h5>
-			<img alt="" src="<%=filepath+filename %>">
+			<img alt="" src="<%=filename != null?filepath+filename:"" %>">
             <a href="picture.jsp">修改照片</a>
 		</div>
 		<h5>ID:</h5>
@@ -37,7 +37,7 @@
 		<h5>个人简介：</h5>
 		<%=(String)session.getAttribute("profile") %>
 		<h5>联系方式：</h5>
-		<%=(String)session.getAttribute("contact") %>
+		<%=(String) session.getAttribute("contact") %>
 
 	</div>
 	<a href="<%=path %>/profileUpdate.jsp">修改</a>

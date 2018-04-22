@@ -48,17 +48,18 @@ public class MemberServlet extends HttpServlet {
 		String password = request.getParameter("password");
 		int sex = Integer.parseInt(request.getParameter("sex")) ;
 		String profile = request.getParameter("profile");
-		
-		System.out.println(profile);
-		response.getWriter().println(profile);
+		String contact = request.getParameter("contact");
+
+//		System.out.println(contact);
+//		response.getWriter().println(profile);
 		
 		PrintWriter out = response.getWriter();
 
-		User user = new User(cell_number,username,password,sex,profile);
+		User user = new User(cell_number,username,password,sex,profile,contact);
 		UserDAO dao = new UserDAO();
 		try {
 			dao.insert(user);
-			dao.login(user.getCell_number(),user.getPassword());
+//			dao.login(user.getCell_number(),user.getPassword());
 			HttpSession session =request.getSession();
 			session.setAttribute("islogin", 1);
 			session.setAttribute("id", user.getId());

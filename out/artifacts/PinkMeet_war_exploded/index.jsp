@@ -18,7 +18,7 @@ String title = "PinkMeet";
 	<button id="like">赞</button>
 	<input type="hidden" id="cuid" value="3">
 	<button id="getuser">获取用户</button>
-
+    <button id="contact">获取联系方式</button>
 	
 	
 	<script src="js/jquery.js"></script>
@@ -29,7 +29,6 @@ String title = "PinkMeet";
 				type:'POST',
 				async:true,
 				data:{
-					id:<%=session.getAttribute("id")%>,
 					cuid:$("#cuid").val(),
 				},
 				dataType:'json',
@@ -60,6 +59,26 @@ String title = "PinkMeet";
                 }
             });
         });
+        $("#contact").click(function(){
+            $.ajax({
+                url:"ContactServlet",
+                type:'POST',
+                async:true,
+                data:{
+                    uid:$("#cuid").val(),
+                },
+                dataType:'json',
+                success:function(res){
+                    alert("拉取用户成功！");
+                },
+                error:function(res){
+                    alert("拉取用户失败。");
+
+                }
+            });
+        });
+
+
 	
 	</script>
 </body>

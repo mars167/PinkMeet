@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d11bda85-abe7-4782-bc10-348165ef5a98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/dao/UserDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/dao/UserDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/bean/User.class" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/bean/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/filter/SessionCheckFilter.class" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/filter/SessionCheckFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/LikeServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/LikeServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/filter/SessionCheckFilter.class" afterPath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/filter/SessionCheckFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/ContactServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/ContactServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/Login.class" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/Login.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/MemberServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/WEB-INF/classes/com/pinkmeet/servlet/MemberServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/bean/User.class" afterPath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/bean/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/servlet/ContactServlet.class" afterPath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/servlet/ContactServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/servlet/MemberServlet.class" afterPath="$PROJECT_DIR$/out/production/PinkMeet/com/pinkmeet/servlet/MemberServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pinkmeet/filter/SessionCheckFilter.java" afterPath="$PROJECT_DIR$/src/com/pinkmeet/filter/SessionCheckFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pinkmeet/servlet/Login.java" afterPath="$PROJECT_DIR$/src/com/pinkmeet/servlet/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/index.jsp" afterPath="$PROJECT_DIR$/WebContent/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/profile.jsp" afterPath="$PROJECT_DIR$/WebContent/profile.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/profile.jsp" afterPath="$PROJECT_DIR$/out/artifacts/PinkMeet_war_exploded/profile.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pinkmeet/bean/User.java" afterPath="$PROJECT_DIR$/src/com/pinkmeet/bean/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pinkmeet/servlet/ContactServlet.java" afterPath="$PROJECT_DIR$/src/com/pinkmeet/servlet/ContactServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pinkmeet/servlet/MemberServlet.java" afterPath="$PROJECT_DIR$/src/com/pinkmeet/servlet/MemberServlet.java" />
     </list>
     <ignored path="PinkMeet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,6 +41,44 @@
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - PinkMeet@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="user" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - PinkMeet@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - PinkMeet@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="likes" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -39,10 +86,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/dao/UserDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="159" column="47" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
+              <folding>
+                <element signature="e#3551#3557#0" expanded="true" />
+                <marker date="1524318572357" expanded="true" signature="356:470" placeholder="INSERT INTO user... " />
+                <marker date="1524318572357" expanded="true" signature="1059:1099" placeholder="SELECT * FRO... user" />
+                <marker date="1524318572357" expanded="true" signature="1580:1674" placeholder="UPDATE user " />
+                <marker date="1524318572357" expanded="true" signature="2281:2312" placeholder="SELECT * FRO... user" />
+                <marker date="1524318572357" expanded="true" signature="2888:2928" placeholder="SELECT * FRO... user" />
+                <marker date="1524318572357" expanded="true" signature="3634:3666" placeholder="SELECT * FRO... user" />
+                <marker date="1524318572357" expanded="true" signature="4562:4593" placeholder="SELECT conta... user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfileUpdate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/ProfileUpdate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LikeServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/LikeServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/ContactServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MeetServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/MeetServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
+            <state relative-caret-position="253">
               <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,58 +160,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
+      <file leaf-file-name="MemberServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/MemberServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            <state relative-caret-position="313">
+              <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/Login.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/bean/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LikeServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/LikeServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PictureDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/dao/PictureDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-              <folding>
-                <marker date="1524295975217" expanded="true" signature="386:450" placeholder="INSERT INTO photoes... " />
-                <marker date="1524295975217" expanded="true" signature="779:842" placeholder="UPDATE photo... " />
-                <marker date="1524295975217" expanded="true" signature="1150:1185" placeholder="SELECT * FRO... photoes" />
-                <marker date="1524295975217" expanded="true" signature="1577:1612" placeholder="SELECT * FRO... photoes" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SessionCheckFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/filter/SessionCheckFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="299">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -119,31 +190,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <file leaf-file-name="profile.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/profile.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="744" column="0" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/MemberServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            <state relative-caret-position="394">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -168,20 +219,20 @@
         <option value="$PROJECT_DIR$/src/com/pinkmeet/servlet/LServlet.java" />
         <option value="$PROJECT_DIR$/src/com/pinkmeet/servlet/UploadImage.java" />
         <option value="$PROJECT_DIR$/src/com/pinkmeet/servlet/LogoutServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/pinkmeet/bean/User.java" />
-        <option value="$PROJECT_DIR$/WebContent/profile.jsp" />
-        <option value="$PROJECT_DIR$/src/com/pinkmeet/servlet/MemberServlet.java" />
         <option value="$PROJECT_DIR$/src/com/pinkmeet/servlet/ProfileUpdate.java" />
         <option value="$PROJECT_DIR$/WebContent/register.jsp" />
-        <option value="$PROJECT_DIR$/src/com/pinkmeet/servlet/ContactServlet.java" />
         <option value="$PROJECT_DIR$/src/com/pinkmeet/servlet/MeetServlet.java" />
         <option value="$PROJECT_DIR$/src/com/pinkmeet/dao/LikeDAO.java" />
         <option value="$PROJECT_DIR$/src/com/pinkmeet/servlet/LikeServlet.java" />
         <option value="$PROJECT_DIR$/src/com/pinkmeet/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/WebContent/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/pinkmeet/dao/PictureDAO.java" />
         <option value="$PROJECT_DIR$/src/com/pinkmeet/filter/SessionCheckFilter.java" />
         <option value="$PROJECT_DIR$/src/com/pinkmeet/servlet/Login.java" />
+        <option value="$PROJECT_DIR$/WebContent/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/pinkmeet/servlet/ContactServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/pinkmeet/bean/User.java" />
+        <option value="$PROJECT_DIR$/src/com/pinkmeet/servlet/MemberServlet.java" />
+        <option value="$PROJECT_DIR$/WebContent/profile.jsp" />
       </list>
     </option>
   </component>
@@ -198,8 +249,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-436" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -952,12 +1005,12 @@
       <updated>1524282480827</updated>
       <workItem from="1524282491895" duration="6411000" />
       <workItem from="1524289943094" duration="768000" />
-      <workItem from="1524291387962" duration="26212000" />
+      <workItem from="1524291387962" duration="30669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33391000" />
+    <option name="totallyTimeSpent" value="37848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -969,7 +1022,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-1920" y="-436" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -986,14 +1039,14 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18597998" sideWeight="0.8004587" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18597998" sideWeight="0.19954129" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16859345" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13844515" sideWeight="0.8065327" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13844515" sideWeight="0.19346733" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1682641" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47469878" sideWeight="0.49614644" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21188119" sideWeight="0.49614644" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1252,14 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/ChatServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1268,39 +1313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
-          <folding>
-            <element signature="e#1946#1947#0" expanded="false" />
-            <element signature="e#1973#1974#0" expanded="false" />
-            <element signature="e#2014#2015#0" expanded="false" />
-            <element signature="e#2043#2044#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/profile.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/ContactServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1318,31 +1334,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/dao/LikeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding>
-            <marker date="1524317154827" expanded="true" signature="362:442" placeholder="INSERT INTO like... " />
-            <marker date="1524317154827" expanded="true" signature="792:862" placeholder="UPDATE likes... " />
-            <marker date="1524317154827" expanded="true" signature="792:898" placeholder="UPDATE likes... " />
-            <marker date="1524317154827" expanded="true" signature="1292:1347" placeholder="SELECT * FRO... likes" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/UploadImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/ProfileUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
           <folding />
         </state>
       </provider>
@@ -1363,73 +1358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-          <folding>
-            <element signature="e#3551#3557#0" expanded="true" />
-            <marker date="1524318572357" expanded="true" signature="356:470" placeholder="INSERT INTO user... " />
-            <marker date="1524318572357" expanded="true" signature="1059:1099" placeholder="SELECT * FRO... user" />
-            <marker date="1524318572357" expanded="true" signature="1580:1674" placeholder="UPDATE user " />
-            <marker date="1524318572357" expanded="true" signature="2281:2312" placeholder="SELECT * FRO... user" />
-            <marker date="1524318572357" expanded="true" signature="2888:2928" placeholder="SELECT * FRO... user" />
-            <marker date="1524318572357" expanded="true" signature="3634:3666" placeholder="SELECT * FRO... user" />
-            <marker date="1524318572357" expanded="true" signature="4562:4593" placeholder="SELECT conta... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/LikeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/MeetServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1761#1767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/MemberServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/dao/PictureDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <marker date="1524295975217" expanded="true" signature="386:450" placeholder="INSERT INTO photoes... " />
-            <marker date="1524295975217" expanded="true" signature="779:842" placeholder="UPDATE photo... " />
-            <marker date="1524295975217" expanded="true" signature="1150:1185" placeholder="SELECT * FRO... photoes" />
-            <marker date="1524295975217" expanded="true" signature="1577:1612" placeholder="SELECT * FRO... photoes" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1443,8 +1371,8 @@
         <state relative-caret-position="1816">
           <caret line="1141" column="0" selection-start-line="1141" selection-start-column="0" selection-end-line="1141" selection-end-column="0" />
           <folding>
-            <element signature="e#25063#25064#0" expanded="true" />
-            <element signature="e#25102#25103#0" expanded="true" />
+            <element signature="e#25063#25064#0" expanded="false" />
+            <element signature="e#25102#25103#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1457,10 +1385,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/picture.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="690">
+          <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/dao/PictureDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <marker date="1524295975217" expanded="true" signature="386:450" placeholder="INSERT INTO photoes... " />
+            <marker date="1524295975217" expanded="true" signature="779:842" placeholder="UPDATE photo... " />
+            <marker date="1524295975217" expanded="true" signature="1150:1185" placeholder="SELECT * FRO... photoes" />
+            <marker date="1524295975217" expanded="true" signature="1577:1612" placeholder="SELECT * FRO... photoes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/dao/LikeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+          <folding>
+            <marker date="1524317154827" expanded="true" signature="362:442" placeholder="INSERT INTO like... " />
+            <marker date="1524317154827" expanded="true" signature="792:862" placeholder="UPDATE likes... " />
+            <marker date="1524317154827" expanded="true" signature="792:898" placeholder="UPDATE likes... " />
+            <marker date="1524317154827" expanded="true" signature="1292:1347" placeholder="SELECT * FRO... likes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/ChatServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -1473,11 +1435,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/Login.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+        <state relative-caret-position="330">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/LikeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/ContactServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/picture.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/MeetServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1761#1767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/ProfileUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/servlet/MemberServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pinkmeet/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="159" column="47" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
+          <folding>
+            <element signature="e#3551#3557#0" expanded="true" />
+            <marker date="1524318572357" expanded="true" signature="356:470" placeholder="INSERT INTO user... " />
+            <marker date="1524318572357" expanded="true" signature="1059:1099" placeholder="SELECT * FRO... user" />
+            <marker date="1524318572357" expanded="true" signature="1580:1674" placeholder="UPDATE user " />
+            <marker date="1524318572357" expanded="true" signature="2281:2312" placeholder="SELECT * FRO... user" />
+            <marker date="1524318572357" expanded="true" signature="2888:2928" placeholder="SELECT * FRO... user" />
+            <marker date="1524318572357" expanded="true" signature="3634:3666" placeholder="SELECT * FRO... user" />
+            <marker date="1524318572357" expanded="true" signature="4562:4593" placeholder="SELECT conta... user" />
+          </folding>
         </state>
       </provider>
     </entry>
