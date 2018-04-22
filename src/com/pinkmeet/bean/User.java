@@ -17,7 +17,7 @@ public class User {
 	public User() {	
 	}
 	
-	public User(String cell_number,String username,String password,int sex,String profile) {
+	public User(String cell_number,String username,String password,int sex,String profile,String contact) {
 		//调用父类构造方法 
 		super();
 		//赋值
@@ -31,6 +31,7 @@ public class User {
 		long reg_time =System.currentTimeMillis();  
 		this.reg_time = reg_time;
 		this.login_time = login_time;
+		this.contact = contact;
 	}
 	public void Regiester(User user) {
 		try {
