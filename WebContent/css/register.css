@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	/*background: #ddd;*/
+	background-image: url('../images/bk.jpg');
+	background-size: 35%;
+}
+#stage{
+	width: 50%;
+	background: #f99;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 30px;
+	border-radius: 20px;
+	color: #fff;
+}
+.part{
+	color: #555;
+	border-radius: 25px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+#title{
+	height: 40px;
+	font-size: 26px;
+	font-weight: bold;
+}
+#content{
+	background: #f5f5f5;
+	font-size: 18px;
+	padding: 20px;
+}
+#error-board{
+	background: #fc9;
+	text-align: left;
+	padding: 10px;
+	display: none;
+}
+#error-board p{
+	text-align: center;
+	font-weight: bold;
+}
+#error-board ol{
+	padding-top: 10px;
+	width: 45%;
+	margin: 0 auto;
+}
+.text-field{
+	width: 300px;
+	height: 30px;
+	font-size: 18px;
+	color: #c05;
+}
+#content table{
+	margin: 0 auto;
+	text-align: right;
+}
+#content tr{
+	height: 40px;
+}
+#content tr td:last-child{
+	text-align: center;
+}
+textarea{
+	width: 300px;
+	height: 50px;
+	resize: none;
+	color: #c05;
+	overflow-y: auto;
+}
+.btn{
+	display: inline-block;
+	background: #f99;
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.link{
+	color: #f44;
+}
+.btn-white{
+	background: #ccc;
+}
+td {
+	max-width: 350px;
+	word-break: break-all;
+}
+.tip{
+	font-size: 14px;
+	color: #a17050;
+}
