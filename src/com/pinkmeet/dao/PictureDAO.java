@@ -74,8 +74,10 @@ public class PictureDAO {
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setInt(1,id);
 			ResultSet rs = pstmt.executeQuery();
-			rs.next();
-			filename = rs.getString("filename");
+			if (rs.next()){
+				filename = rs.getString("filename");
+			}
+			filename = null;
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}

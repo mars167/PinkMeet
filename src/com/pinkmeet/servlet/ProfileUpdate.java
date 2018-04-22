@@ -41,10 +41,11 @@ public class ProfileUpdate extends HttpServlet {
 		// TODO Auto-generated method stub
 		request.setCharacterEncoding("utf-8");
 		response.setContentType("text/html;charSet=utf-8");
-		
+		HttpSession  session = request.getSession();
+        System.out.println("update in!");
+
 		String username = request.getParameter("username");
 		String profile = request.getParameter("profile");
-		HttpSession  session = request.getSession();
 		String cell_number = (String) session.getAttribute("cell_number");
 		String contact = (String) session.getAttribute("contact");
 
@@ -56,6 +57,8 @@ public class ProfileUpdate extends HttpServlet {
 		dao.update(cell_number, username, profile,contact);
 		session.setAttribute("username", username);
 		session.setAttribute("profile", profile);
+        session.setAttribute("contact",contact);
+
 		response.sendRedirect("profile.jsp");
 		
 	}

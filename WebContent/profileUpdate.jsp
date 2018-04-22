@@ -39,6 +39,20 @@
 							<textarea id="bio" name="profile"><%=session.getAttribute("profile") %></textarea>
 						</td>
 					</tr>
+					<tr>
+						<td>
+							<label for="bio">联系方式：</label>
+						</td>
+						<td>
+							<textarea id="contact" name="contact"><%=session.getAttribute("contact") %></textarea>
+						</td>
+					</tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <span class="tip">此联系方式将发送给互相 喜欢 的双方，请务必慎重填写</span>
+                        </td>
+                    </tr>
 				</table><br>
 				<tr>
 					<td>

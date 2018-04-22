@@ -69,10 +69,10 @@ public class UserDAO {
 		    	pstmt.setString(2,profile);
 		    }else {
 		    	pstmt.setString(2," ");
-		    } 
-		    pstmt.setString(3, cell_number);
-            pstmt.setString(4, contact);
-		    pstmt.execute();		
+		    }
+			pstmt.setString(3, contact);
+		    pstmt.setString(4, cell_number);
+		    pstmt.execute();
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}

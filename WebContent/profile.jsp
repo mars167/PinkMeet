@@ -18,20 +18,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<<<<<<< HEAD
-    <base href="<%=basepath%>">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title><%=title%></title>
-    <script type="" src="js/ajax.js"></script>
-</head>
-<body>
-	<div>
-		<div>
-		<h5>图片</h5>
-			<%=basepath%>
-			<img alt="" src="<%=filename != null?filepath+filename:"" %>">
-            <a href="picture.jsp">修改照片</a>
-=======
 	<base href="<%=basepath%>">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title><%=title%></title>
@@ -104,7 +90,6 @@
 					<a href="index.jsp" class="link">返回</a>
 				</td>
 			</tr>
->>>>>>> c7f3eaf0ecabc3d3e03764d0e97bc933a8fd2857
 		</div>
 	</div>
 </body>
